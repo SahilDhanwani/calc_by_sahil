@@ -56,6 +56,10 @@ export const Styles = StyleSheet.create({
         fontSize: 32,
         color: Color.black,
     },
+    container: {
+        flex: 1,
+        justifyContent: 'space-between', // This ensures that the content is spaced evenly with the footer pushed to the bottom
+    },
 
     // Keyboard Styling Adjustments
     row: {
@@ -77,5 +81,22 @@ export const Styles = StyleSheet.create({
         color: Color.gray,
         fontWeight: "200",
         alignSelf: "flex-end",
+    },
+
+    footer: {
+        width: "100%",
+        paddingVertical: 10,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    line: {
+        width: "90%",
+        height: 1,
+        backgroundColor: Color.green, // Change color based on theme
+        marginBottom: 5,
+    },
+    footerText: {
+        color: Color.blue, // Change color based on theme
+        fontSize: 26,
     },
 });

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SafeAreaView, StyleSheet, View } from "react-native";
+import { SafeAreaView, StyleSheet, View, Text } from "react-native";
 import { Color } from "./src/styles/Color";
 import { Theme } from "./src/context/Theme";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
@@ -26,6 +26,7 @@ export default function App() {
         </View>
 
         <Keypad theme={theme} />
+
       </SafeAreaView>
     </Theme.Provider>
   );
@@ -37,7 +38,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.light,
     alignItems: "center",
     justifyContent: "flex-start",
-    paddingTop: 780,
+    paddingTop: 800,
   },
   switchContainer: {
     position: "absolute",
