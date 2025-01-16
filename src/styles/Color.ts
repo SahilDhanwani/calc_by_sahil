@@ -1,4 +1,4 @@
-export const myColor = {
+export const Color = {
     light: "#F1F2F3",
     dark: "#17171C",
     blue: "#4B5EFC",
@@ -7,6 +7,5 @@ export const myColor = {
     gray: "#747477",
     black: "#000000",
     white: "#FFFFFF",
-    green: "#46D5B2",
-    result: "#46D5B2",
+    green: "#006400", //Using this color as per extra requirements
 };

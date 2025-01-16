@@ -155,7 +155,7 @@ export default function Keypad({ theme }: KeypadProps) {
         <Button title="." onPress={() => handleNumberPress(".")} />
         <Button title="0" onPress={() => handleNumberPress("0")} />
         <Button title="⌫" onPress={handleBackspace} />
-        <Button title="=" isBlue onPress={handleEqualPress} />
+        <Button title="=" isGreen onPress={handleEqualPress} />
       </View>
     </View>
   );

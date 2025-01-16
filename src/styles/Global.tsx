@@ -1,13 +1,22 @@
 import { StyleSheet } from "react-native";
-import { myColor } from "./Color";
+import { Color } from "./Color";
 
 export const Styles = StyleSheet.create({
+    btnGreen: {
+        width: 72,
+        height: 72,
+        borderRadius: 24,
+        backgroundColor: Color.green,
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 8,
+    },
     // Button
     btnBlue: {
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColor.blue,
+        backgroundColor: Color.blue,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -16,7 +25,7 @@ export const Styles = StyleSheet.create({
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColor.btnDark,
+        backgroundColor: Color.btnDark,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -25,7 +34,7 @@ export const Styles = StyleSheet.create({
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColor.white,
+        backgroundColor: Color.white,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
@@ -34,18 +43,18 @@ export const Styles = StyleSheet.create({
         width: 72,
         height: 72,
         borderRadius: 24,
-        backgroundColor: myColor.btnGray,
+        backgroundColor: Color.btnGray,
         justifyContent: "center",
         alignItems: "center",
         margin: 8,
     },
     smallTextLight: {
         fontSize: 32,
-        color: myColor.white,
+        color: Color.white,
     },
     smallTextDark: {
         fontSize: 32,
-        color: myColor.black,
+        color: Color.black,
     },
 
     // Keyboard Styling Adjustments
@@ -59,13 +68,13 @@ export const Styles = StyleSheet.create({
     },
     screenFirstNumber: {
         fontSize: 96,
-        color: myColor.gray,
+        color: Color.gray,
         fontWeight: "200",
         alignSelf: "flex-end",
     },
     screenSecondNumber: {
         fontSize: 40,
-        color: myColor.gray,
+        color: Color.gray,
         fontWeight: "200",
         alignSelf: "flex-end",
     },
